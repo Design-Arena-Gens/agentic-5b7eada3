@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --off-white: #F9FAFB;
+  --mist-gray: #E5E7EB;
+  --charcoal: #1F2937;
+  --mint-aqua: #34D399;
+  --tangerine: #FB923C;
+
+  --lemon-lime: #84CC16;
+  --berry: #C026D3;
+  --mango: #FBBF24;
+  --cola: #78350F;
+  --watermelon: #FB7185;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--off-white);
+  color: var(--charcoal);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--mint-aqua);
+  color: white;
+}
